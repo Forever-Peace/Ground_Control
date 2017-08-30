@@ -210,6 +210,14 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
+          
+collections:
+  apps:
+    output: true
+    permalink: /apps/:path/
+  quickhits:
+    output: true
+    permalink: /quickhits/:path/
 
 gems:
   - jekyll-paginate
