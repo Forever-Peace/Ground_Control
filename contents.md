@@ -62,13 +62,13 @@ permalink: /contents/
 ---
 
 # Quick Hits
-[Official NFL rushing attempt brain-teasers](/GroundControl/quickhits/teasers/)    
-[Player Growth from years 1 to 2](/GroundControl/quickhits/sophgrowth/)  
-[How much variability is there between players?](/GroundControl/quickhits/playervar/)  
+[Official NFL rushing attempt brain-teasers](/Ground_Control/quickhits/teasers/)    
+[Player Growth from years 1 to 2](/Ground_Control/quickhits/sophgrowth/)  
+[How much variability is there between players?](/Ground_Control/quickhits/playervar/)  
 A basic taxonomy of run distributions  
-[What the fuck is up with Melvin Gordon?](/GroundControl/quickhits/melvin15/)  
-[The ten yard divot](/GroundControl/quickhits/divot/)  
-[It's Miller Time](/GroundControl/quickhits/millertime/)
+[What the fuck is up with Melvin Gordon?](/Ground_Control/quickhits/melvin15/)  
+[The ten yard divot](/Ground_Control/quickhits/divot/)  
+[It's Miller Time](/Ground_Control/quickhits/millertime/)
 
 ---
 
