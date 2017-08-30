@@ -28,7 +28,7 @@ permalink: /contents/
 [Chapter 3: Finding Player Comparables through Distribution Matching](/Ground_Control/ch3/)    
 [Chapter 4: Embracing the Random](/Ground_Control/ch4/)  
 [Chapter 5: Context is Everything](/Ground_Control/ch5/)  
-[Chapter 6: Surprisal Me](/GroundControl/chapters/ch6/)  
+[Chapter 6: Surprisal Me](/Ground_Control/ch6/)  
   
 ---
 
