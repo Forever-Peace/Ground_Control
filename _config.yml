@@ -26,8 +26,8 @@ navbar-links:
   About: "about"
   Table of Contents: "contents"
   Apps:
-    - Instructions: "/Ground_Control/apps/install_apps/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+    - Instructions: "apps/install_apps/"
+    - Player Distribution Plotter: "apps/rbdist/"
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
 
