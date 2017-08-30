@@ -26,7 +26,7 @@ permalink: /contents/
 [Chapter 1: The Typical Run](/Ground_Control/ch1/)  
 [Chapter 2: Types of Runners](/Ground_Control/ch2/)    
 [Chapter 3: Finding Player Comparables through Distribution Matching](/Ground_Control/ch3/)    
-[Chapter 4: Embracing the Random](/GroundControl/chapters/ch4/)  
+[Chapter 4: Embracing the Random](/Ground_Control/ch4/)  
 [Chapter 5: Context is Everything](/GroundControl/chapters/ch5/)  
 [Chapter 6: Surprisal Me](/GroundControl/chapters/ch6/)  
   
@@ -70,43 +70,8 @@ A basic taxonomy of run distributions
 [The ten yard divot](/Ground_Control/quickhits/divot/)  
 [It's Miller Time](/Ground_Control/quickhits/millertime/)
 
----
-
-# Proportion Tables  
-Lists the proportion of runs by each player that exceed a particular length.  
-
-## 2015
-[2015 Season Positive Yards](/GroundControl/proptables/2015_0yd/)  
-[2015 Season 3+ Yards](/GroundControl/proptables/2015_3yd/)  
-[2015 Season 4+ Yards](/GroundControl/proptables/2015_4yd/)  
-[2015 Season 5+ Yards](/GroundControl/proptables/2015_5yd/)  
-[2015 Season 7+ Yards](/GroundControl/proptables/2015_7yd/)  
-[2015 Season 10+ Yards](/GroundControl/proptables/2015_10yd/)  
-[2015 Season 15+ Yards](/GroundControl/proptables/2015_15yd/)  
-[2015 Season 20+ Yards](/GroundControl/proptables/2015_20yd/)  
-  
-## 2014 
-[2014 Season Positive Yards](/GroundControl/proptables/2014_0yd/)  
-[2014 Season 3+ Yards](/GroundControl/proptables/2014_3yd/)  
-[2014 Season 4+ Yards](/GroundControl/proptables/2014_4yd/)  
-[2014 Season 5+ Yards](/GroundControl/proptables/2014_5yd/)  
-[2014 Season 7+ Yards](/GroundControl/proptables/2014_7yd/)  
-[2014 Season 10+ Yards](/GroundControl/proptables/2014_10yd/)  
-[2014 Season 15+ Yards](/GroundControl/proptables/2014_15yd/)  
-[2014 Season 20+ Yards](/GroundControl/proptables/2014_20yd/)  
-  
-## 2013 
-[2013 Season Positive Yards](/GroundControl/proptables/2013_0yd/)  
-[2013 Season 3+ Yards](/GroundControl/proptables/2013_3yd/)  
-[2013 Season 4+ Yards](/GroundControl/proptables/2013_4yd/)  
-[2013 Season 5+ Yards](/GroundControl/proptables/2013_5yd/)  
-[2013 Season 7+ Yards](/GroundControl/proptables/2013_7yd/)  
-[2013 Season 10+ Yards](/GroundControl/proptables/2013_10yd/)  
-[2013 Season 15+ Yards](/GroundControl/proptables/2013_15yd/)  
-[2013 Season 20+ Yards](/GroundControl/proptables/2013_20yd/)  
-
 ---  
-
+  
 # Scripts
 [Chapter 1 script: The Typical Run](https://github.com/Forever-Peace/GroundControl/tree/master/Chapters/ch1%20num_to_dist/num_to_dist.R)  
 [Chapter 2 script: Types of Runners](https://github.com/Forever-Peace/GroundControl/blob/master/Chapters/ch2%20player_dist/player_dist.R)  
