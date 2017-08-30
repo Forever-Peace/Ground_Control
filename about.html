@@ -1,0 +1,70 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Ground Control</h1>
+
+<p>Welcome to the "Ground Control" project.<br/><br/>
+
+My goal is pretty simple. I want to investigate all aspects of the NFL running game to an extent that is unreasonably excessive. <br/><br/>
+
+There will be charts, and graphs. There will be math. There will be videos, and reporting, and impossibly obscure factoids. There will be interactive apps. For the statheads, there will be Bayes Law and Bootstrapping, Regression models and Decision trees. There will be mythbusting, and there will also be shooting-from-the-hip bullshit speculation.<br/><br/>
+
+But most of all, I want there to be a place for fans to get together and learn something about football from one another.<br/><br/> 
+
+You will not need to know one iota of statistics in order to follow this website. We will provide everything you need to know as it comes up, in plain English.</p>
+
+<p><img style="float: left; margin: 0px 4px" src="/GroundControl/images/BernieA.jpg" alt="Bernie" />  "Just to be clear, you haven't specified who 'we' is yet."</p><br/><br/>
+
+<p>Folks, meet our stats guide (and all-around wonk) for this journey. Ernie Adams is an international man of mystery and longtime advisor to Bill Belichick. He's a towering genius of football strategy with an encyclopedic knowledge of football theory and history, along with enough statistical know-how to make bank as a bond trader. You owe it to yourself to <a href="https://www.bostonglobe.com/sports/2015/01/29/mysterious-ernie-adams-patriots-man-behind-curtain/IrNCfgrysUphGpkcIjEaBL/story.html">read this profile</a>. He may be one of the most influential football minds of the past two decades.</p><br/>
+
+<p>For legal reasons, we have with us now his long-lost alternate-reality twin brother, Bernie Datums. Any relation to the real Ernie Adams is purely coincidental. And/or satirical. But definitely completely made-up.</p>
+
+<p><img style="float: left; margin: 0px 4px" src="/GroundControl/images/BernieA.jpg" alt="Bernie" />  "I'll be providing the facts. History, numbers, technical details. Forever_Peace is basically just the color commentator."</p><br/>
+
+<p>I like to think of myself more as the "explainer". It will be more clear once you're reading the chapters.</p>
+
+<h2>The Plan</h2>
+<p>I have been poking around NFL rushing data for months now. It was time for me to write it up for other folks to enjoy too. The chapters will introduce at least one major new idea, and will generally be pretty long. Most chapters will also have an "app" or two that will allow everybody the explore that topic themselves (and will hopefully make it easy to discover cool things for the rest of us to check out). "App" is in quotes because they aren't actually programs, really - they're snippets of packaged visualization, analysis, and simulation code wrapped up in a pretty UI and distributed for free (everything is open-source). Apps will generally come out within a few days of the major chapters. And finally, between chapters, I will occasionally post "quick hits" of cool stats or stories that are related to the chapter topic.</p>
+
+<p>A chapter summary of the main points can be found at the end of each of the major posts.<br/><br/>
+
+The table of contents (<a href="/GroundControl/contents/">HERE</a>) will be updated with links to the new chapters. I will keep a rolling list of chapter summaries HERE.<br/><br/>
+
+All figures can be batch-downloaded <a href="https://drive.google.com/open?id=0Bwky7l-QEUB4bmxmOWcxSUFXaFU">HERE</a> if you want to download the lot of them without needing to save each one individually from imgur.</p>
+
+<h2>The Data</h2>
+<p>Unless otherwise specified, I will be working with every regular-season rushing attempt by a running back from the six years between 2010 and 2015. Every other position has been removed (for now). In all, I have a database of about 71,000 individual rushing attempts.<br/><br/>
+
+The data is drawn from the official NFL JSON feed, through the wonderful <a href="https://github.com/BurntSushi/nfldb/wiki">nfldb</a> python package. This should reflect the official scorekeeping of the NFL.<br/><br/>
+
+This gives me access to play-by-play data on a whole host of features, from field position to down and distance to stadium to clock time. What I do NOT currently have access to is anything relating to play charting: formations, path taken, location of initial contact, broken tackles etc. Drop a line if you can hook me up.</p>
+
+<h2>The Commitment to Open Data</h2>
+<p>I will be using <a href="http://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/">GitHub</a> to publish the scripts, files, and data used for this project.<br/><br/>
+
+The entirety of the data is already available, in full, on the <a href="https://github.com/Forever-Peace/GroundControl">Ground Control GitHub Repository</a> (the "rushing_data_stack.csv" in the main folder).<br/><br/>
+
+Every time I post a chapter, I will also publish the "R" script I used to generate the major findings. These will be freely available on the GitHub/Chapters folder. Direct links to chapter scripts will be kept in a rolling list in the table of contents (HERE).<br/><br/>
+
+Further, all of the interactive apps will also be available, for free, through GitHub. The source code will be available under the "Chapters/shinyapps" folder.</p>
+
+<h2>Using the Interactive Apps</h2>
+<p>Because I couldn't be arsed to figure out website hosting logistics, all apps will be distributed through GitHub. Using them is extremely easy, even if you have minimal computer knowledge. Here are the prerequisites:<br/>
+1) <a href="https://cran.cnr.berkeley.edu/">Download and install R from this link.</a> R is a free statistical analysis software.<br/>
+2) <a href="https://www.rstudio.com/products/rstudio/download/">Download and install RStudio from this link.</a> RStudio is a useful interface for R, but more importantly, it enables built-in automatic support for the plugin the apps are built with, called “shiny”.<br/>
+3) Update the packages you need. Open RStudio, and in the console, enter:</p>
+<pre><code>install.packages("ggplot2")
+install.packages("shiny")
+install.packages("reshape2")
+install.packages("FNN")
+</code></pre>
+<p></p>That’s it. After you do these two things, whenever I publish an app, I will give you two lines of code. You'll just need to start RStudio, then copy-paste that code. The app will download and run automatically, from within the RStudio program.</p>
+
+<p>Here is an example from the chapter 2 "player distribution" app:</p>
+<pre><code>library("shiny")
+runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_dist/")
+</code></pre>
+
+<p>The first line activates the "shiny" plugin that runs the app. The second line downloads the app and runs it through RStudio. You can go to the Github page to see exactly the code that is run for the app if you'd like to make sure there is no funny business (in this case, <a href="https://github.com/Forever-Peace/GroundControl/tree/master/Chapters/shinyapps/rb_dist">here</a>). </p>
