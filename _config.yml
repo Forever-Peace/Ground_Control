@@ -14,10 +14,10 @@ baseurl: "/Ground_Control"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Ground Control
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Deconstructing the run game to an unreasonable extent.
 
 # --- Navigation bar options --- #
 
@@ -43,10 +43,10 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
-  email: "youremail@domain.com"
+  name: Forever_Peace
+  email: "forever.peace2007@gmail.com"
   facebook: yourname  # eg. daattali
-  github: yourname    # eg. daattali
+  github: Forever-Peace    # eg. daattali
   twitter: yourname   # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
