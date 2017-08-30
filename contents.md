@@ -23,9 +23,9 @@ permalink: /contents/
 ---
   
 # Chapters  
-[Chapter 1: The Typical Run](/Ground_Control/2016-06-26-ch1/)  
-[Chapter 2: Types of Runners](/Ground_Control/2016-07-06-ch2/)    
-[Chapter 3: Finding Player Comparables through Distribution Matching](/GroundControl/chapters/ch3/)    
+[Chapter 1: The Typical Run](/Ground_Control/ch1/)  
+[Chapter 2: Types of Runners](/Ground_Control/ch2/)    
+[Chapter 3: Finding Player Comparables through Distribution Matching](/Ground_Control/ch3/)    
 [Chapter 4: Embracing the Random](/GroundControl/chapters/ch4/)  
 [Chapter 5: Context is Everything](/GroundControl/chapters/ch5/)  
 [Chapter 6: Surprisal Me](/GroundControl/chapters/ch6/)  
