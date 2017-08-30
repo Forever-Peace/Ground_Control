@@ -25,8 +25,8 @@ description: Deconstructing the run game to an unreasonable extent.
 navbar-links:
   About: "about"
   Table of Contents: "contents"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+  Apps:
+    - Instructions: "/Ground_Control/apps/install_apps/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
