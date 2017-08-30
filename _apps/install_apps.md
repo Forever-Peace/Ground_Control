@@ -29,7 +29,7 @@ All dependencies will be downloaded and installed automatically to your R Packag
 
 ## How to Download and Run the Apps  
   
-(4) Simply enter the packages "run command" into the R console. All run commands are two lines of code: the first loads the "shiny" package to enable interactive apps, and the second retrieves the source code and data from the github repository and opens the app. For example, this will open the ["Head to Head Competitions" app](/GroundControl/apps/rb_head2head/):  
+(4) Simply enter the packages "run command" into the R console. All run commands are two lines of code: the first loads the "shiny" package to enable interactive apps, and the second retrieves the source code and data from the github repository and opens the app. For example, this will open the ["Head to Head Competitions" app](/Ground_Control/apps/rb_head2head/):  
   
 {% highlight R %}
 library("shiny");
