@@ -8,7 +8,7 @@
 #baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-url: "https://forever-peace.github.io/Ground_Control/"
+url: "https://forever-peace.github.io/Ground_Control"
 baseurl: "/Ground_Control"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
