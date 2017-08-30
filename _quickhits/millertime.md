@@ -130,7 +130,7 @@ And in 2015, that clear dominance started to fade:
   
 Sure, the composition of the backfield changed between years, but I'm not sure we can just brush this off by saying that "maybe Jay Ajayi and Jonas Gray are really really good???".  
   
-However, even 2015 had it's bright spots. Though his ability to break through the contested yards clearly suffered, he still managed to tear out [a few big chunks of yards](/GroundControl/proptables/2015_7yd/){:target="_blank"} here and there.  
+However, even 2015 had it's bright spots. Though his ability to break through the contested yards clearly suffered, he still managed to tear out a few big chunks of yards here and there.  
   
 * * *
   
