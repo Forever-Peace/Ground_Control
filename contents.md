@@ -23,7 +23,7 @@ permalink: /contents/
 ---
   
 # Chapters  
-[Chapter 1: The Typical Run](/GroundControl/chapters/ch1/)  
+[Chapter 1: The Typical Run](/Ground_Control/chapters/2016-06-26-ch1/)  
 [Chapter 2: Types of Runners](/GroundControl/chapters/ch2/)    
 [Chapter 3: Finding Player Comparables through Distribution Matching](/GroundControl/chapters/ch3/)    
 [Chapter 4: Embracing the Random](/GroundControl/chapters/ch4/)  
@@ -35,27 +35,27 @@ permalink: /contents/
 # Apps  
 (Click title link for description. Enter the runGitHub command into RStudio after library("shiny") to run the app directly.)  
   
-[Installation Instructions for Apps](/GroundControl/apps/install_apps/)  
+[Installation Instructions for Apps](/Ground_Control/apps/install_apps/)  
   
-[Player Distribution Plotter:](/GroundControl/apps/rbdist/)  
+[Player Distribution Plotter:](/Ground_Control/apps/rbdist/)  
 {% highlight R %}runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_dist/"){% endhighlight %}<br/>  
   
-[Player Comparison Machine:](/GroundControl/apps/rb_contrast/)  
+[Player Comparison Machine:](/Ground_Control/apps/rb_contrast/)  
 {% highlight R %}runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_contrast/"){% endhighlight %}<br/>    
   
-[Player vs. Teammates:](/GroundControl/apps/rb_vsteam/)  
+[Player vs. Teammates:](/Ground_Control/apps/rb_vsteam/)  
 {% highlight R %}runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_distvsteam/"){% endhighlight %}<br/>    
   
-[Distribution Matching:](/GroundControl/apps/rb_distmatch/)  
+[Distribution Matching:](/Ground_Control/apps/rb_distmatch/)  
 {% highlight R %}runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_distmatch/"){% endhighlight %}<br/>    
   
-[Head to Head Competitions:](/GroundControl/apps/rb_head2head/)  
+[Head to Head Competitions:](/Ground_Control/apps/rb_head2head/)  
 {% highlight R %}runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_head2head/"){% endhighlight %}<br/>    
   
-[Defensive Yards Against:](/GroundControl/apps/rb_def/)  
+[Defensive Yards Against:](/Ground_Control/apps/rb_def/)  
 {% highlight R %}runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_def/"){% endhighlight %}<br/>    
 
-[Game Score:](/GroundControl/apps/rb_surp/)  
+[Game Score:](/Ground_Control/apps/rb_surp/)  
 {% highlight R %}runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_surp/"){% endhighlight %}<br/>    
 
 
