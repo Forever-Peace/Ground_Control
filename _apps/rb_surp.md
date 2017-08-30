@@ -10,7 +10,7 @@ library("shiny");
 runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_surp/")
 {% endhighlight %}<br/> 
   
-This app is the Game Score navigator from [chapter 6](/Ground_Control/chapters/ch6/). Pick a player, and the plot shows the both the carries that player took in each game since 2010 (along the x-axis) and the quality of the game, measured in bits (where a 1 bit increase in Game Surprisal corresponds with a game that was twice as improbable given league-average running). All games from all players are shown in gray for comparison.
+This app is the Game Score navigator from [chapter 6](/Ground_Control/ch6/). Pick a player, and the plot shows the both the carries that player took in each game since 2010 (along the x-axis) and the quality of the game, measured in bits (where a 1 bit increase in Game Surprisal corresponds with a game that was twice as improbable given league-average running). All games from all players are shown in gray for comparison.
   
 The second tab of the app shows Game Score, which is the "marginal Game Surprisal" (or the difference between the red dots and the blue line, aka the difference from average Game Surprisal given that many carries).
   
