@@ -1,5 +1,6 @@
 ---
 title: Installation Instructions
+layout: page
 ---  
 
 ## Running the Apps
