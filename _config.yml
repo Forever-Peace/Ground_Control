@@ -35,8 +35,9 @@ navbar-links:
     - Game Score: "apps/rb_surp/"
     - Defensive Yards Against: "apps/rb_def/"
   Chapters:
-    - "Chapter 1: The Typical Run": "2016-06-26-ch1/"
-    - "Chapter 2: Types of Runners": "2016-07-06-ch2/"
+    - "Chapter 1: The Typical Run": "ch1/"
+    - "Chapter 2: Types of Runners": "ch2/"
+    - "Chapter 3: Distribution Matching": "ch3/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
