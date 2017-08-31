@@ -1,5 +1,6 @@
 ---
 title: What the fuck is up with Melvin Gordon?
+comments: true
 ---
 I wasn't crazy about the pick, but a lot of smart people were. The Chargers themselves liked Gordon enough to trade *up* for him in the *first round*. Was a monster in college, with 12 100-yard games, 6 200-yard games, and one game with over 400 yards. Led the big ten in YPC for two consecutive years, and led the entire NCAA in both yards and touchdowns his senior year *among all positions*. Great build, isn't afraid of contact, supposedly runs well in tight spaces.  
   
