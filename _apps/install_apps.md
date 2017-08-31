@@ -3,6 +3,10 @@ title: Installation Instructions
 layout: page
 ---  
 
+<a href="/Ground_Control/img/Rstudio_firstopen.png" title="RStudio_open" rel="lightbox">
+    <img src="/Ground_Control/img/Rstudio_firstopen.png" alt="" title="" />
+</a>
+
 ## Running the Apps
 Running the apps, for free, compiled directly from the publically available source code, is very simple. You will need to install the R Statistics program, update a few plugins, then simply enter the run command for the app you want to use.  
 
