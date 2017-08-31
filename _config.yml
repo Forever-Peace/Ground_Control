@@ -233,6 +233,9 @@ collections:
     output: true
     permalink: /quickhits/:path/
 
+plugins:
+  - jekyll-seo-tag
+
 gems:
   - jekyll-paginate
 
