@@ -12,7 +12,7 @@ Running the apps, for free, compiled directly from the publically available sour
 (2) [Install RStudio here](https://www.rstudio.com/products/rstudio/download/). The default installation options are sufficient. This is a user interface for R that will make it easier for you to use. This step is technically optional, but strongly recommended.  
   
 Now, whenever you want to run R, you should launch RStudio. It should look something like this when you first open it:  
-![RStudio](/Ground_Control/img/Rstudio_firstopen.png)  
+[![RStudio](/Ground_Control/img/Rstudio_firstopen.png)](/Ground_Control/img/Rstudio_firstopen.png){: rel="lightbox"}  
   
 The "console" panel on the left is where you will enter commands to run. The tabs in the panel at the bottom-right include a number of helpful things, but the most pertinent for now is the "Packages" tab. This lists all of the packages currently downloaded into your R install.  
   
