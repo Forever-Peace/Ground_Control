@@ -1,7 +1,7 @@
 ---
 title: Player Comparison Machine
 ---
-![app1](http://i.imgur.com/vSsnaqc.png)
+![app1](/img/rb_contrast_guide.bmp)
 
 #### Run command:
 {% highlight R %}
