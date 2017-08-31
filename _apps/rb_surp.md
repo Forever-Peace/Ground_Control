@@ -2,7 +2,7 @@
 title: Game Score
 ---
 
-![Game Surprisal App Pic](/GroundControl/images/rb_surp_1.png) 
+![Game Surprisal App Pic](/Ground_Control/img/rb_surp_1.png) 
 
 #### Run command:  
 {% highlight R %}
@@ -14,7 +14,7 @@ This app is the Game Score navigator from [chapter 6](/Ground_Control/ch6/). Pic
   
 The second tab of the app shows Game Score, which is the "marginal Game Surprisal" (or the difference between the red dots and the blue line, aka the difference from average Game Surprisal given that many carries).
   
-![app5_2](/GroundControl/images/rb_surp_2.png)  
+![app5_2](/Ground_Control/img/rb_surp_2.png)  
   
 To get the app, make sure you have R and Rstudio (described [here](/Ground_Control/apps/install_apps/)), then copy-paste the run command into the "console" window of RStudio.  
   
