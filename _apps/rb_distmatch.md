@@ -1,13 +1,13 @@
 ---
 title: Player Distribution Matching
 ---
-![app4](http://i.imgur.com/5O4PNAs.png)
+![app4](/Ground_Control/img/rb_distmatch_guide.bmp)
 
 #### Run command:  
 {% highlight R %}
 library("shiny");  
 runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_distmatch/")
-{% endhighlight %}<br/>  
+{% endhighlight %}   
   
 This app allows you to do the same sort of distribution matching that we utilized in [chapter 3](/Ground_Control/ch3/). Pick a player, and you will be given A) an ordered list of matches (best at the top to worst on the bottom) that you can choose from to plot against the player you ran through the matcher, and B) a text list of the top 10 matches. If you felt that 50 carries was too small of a sample size for matching, you can select higher cutoffs at the top right. This will remove any "matches" below that limit.  
   
