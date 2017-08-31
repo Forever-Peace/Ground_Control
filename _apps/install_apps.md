@@ -3,13 +3,13 @@ title: Installation Instructions
 layout: page
 ---  
 
-<a href="/Ground_Control/img/Rstudio_firstopen.png" title="RStudio_open" rel="lightbox">
-    <img src="/Ground_Control/img/Rstudio_firstopen.png" alt="" title="" />
-</a>
-
 ## Running the Apps
 Running the apps, for free, compiled directly from the publically available source code, is very simple. You will need to install the R Statistics program, update a few plugins, then simply enter the run command for the app you want to use.  
-
+  
+<a href="/Ground_Control/img/Rstudio_firstopen.png" title="RStudio_open" rel="lightbox">
+    <img src="/Ground_Control/img/Rstudio_firstopen.png" alt="" title="" />
+</a>  
+  
 ## How to Install R  
 
 (1) [Install Microsoft R Open here](https://mran.revolutionanalytics.com/open/). You do not need the MKL libraries, but can take the opportunity install them now to enable multithreading support on your R installation. Default installation options is sufficient, but you can change anything that you would like to. Microsoft R Open is a distribution of the [R Statistics Program](https://www.r-project.org) with a fixed repository of plugin versions, ensuring that you and I will be using the same versions of everything. If you are familiar with R, or have an existing R install you would prefer using, that should be fine, and you can move ahead to step 2.  
