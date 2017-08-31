@@ -25,7 +25,8 @@ description: Deconstructing the run game to an unreasonable extent.
 navbar-links:
   About: "about"
   Table of Contents: "contents"
-  Apps:
+  Downloads: "downloads"
+  Shiny Apps:
     - Instructions: "apps/install_apps/"
     - Player Distribution Plotter: "apps/rbdist/"
     - Player Comparison Machine: "apps/rb_contrast/"
