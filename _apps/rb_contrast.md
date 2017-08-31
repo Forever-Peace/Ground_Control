@@ -7,7 +7,7 @@ title: Player Comparison Machine
 {% highlight R %}
 library("shiny");
 runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_contrast/")
-{% endhighlight %}<br/>  
+{% endhighlight %}  
   
 The previous app let you compare a selected player to the average. This app lets you compare two players directly to one-another. You can also select one player, change the comparison type to "Years", and compare that player's performance from one year to the next.  
   
