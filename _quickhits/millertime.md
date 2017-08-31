@@ -1,5 +1,6 @@
 ---
 title: It's Miller Time
+comments: true
 ---
 
 Lamar Miller was one of the top free-agent running backs this year. Among the only University of Miami players drafted by the Dolphins in nearly a decade (along with Olivier Vernon in the preceding round), Miller has put in three solid, healthy years as the starting running back, missing no games and averaging 1174 scrimmage yards per season. Thanks to some serious speed (Miller had the best RB 40 time of 2012 and would have been top 3 in every year since), Miller has quietly been an efficiency king at Miami, posting a career YPC of 4.59 and a respectable success rate. But bizarrely, Miller's 2015 box stats seemed somewhat pedestrian, thanks to a volume of only about 12 carries per game. A number of people started speculating that Ajayi was seen as the future of the backfield, or perhaps that the franchise didn't trust the run game at all. So what do we know know about Lamar Miller as he makes his jump to the Texans?  
