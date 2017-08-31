@@ -1,5 +1,6 @@
 ---
 title: How much variability is there between players?
+comments: true
 ---
 
 So far, I've mostly been using graphical techniques to directly compare two players at a time across a range of yardages, and have been using tables for when I want to compare a lot of players at a time for specific yardage cutoffs.  
