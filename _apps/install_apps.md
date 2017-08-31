@@ -2,14 +2,7 @@
 title: Installation Instructions
 layout: page
 ---  
-<head> 
-<script>
-$(function () {
-    $('a').fluidbox(viewportFill: 0.99);
-})
-</script>
-</head>
-  
+    
 ## Running the Apps
 Running the apps, for free, compiled directly from the publically available source code, is very simple. You will need to install the R Statistics program, update a few plugins, then simply enter the run command for the app you want to use.  
   
