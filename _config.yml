@@ -149,6 +149,9 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      sitemap:
+        priority: 0.7
+        changefreq: 'monthly'
   -
     scope:
       path: "" # all files
