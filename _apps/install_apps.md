@@ -12,7 +12,7 @@ Running the apps, for free, compiled directly from the publically available sour
 (2) [Install RStudio here](https://www.rstudio.com/products/rstudio/download/). The default installation options are sufficient. This is a user interface for R that will make it easier for you to use. This step is technically optional, but strongly recommended.  
   
 Now, whenever you want to run R, you should launch RStudio. It should look something like this when you first open it:  
-![RStudio](/GroundControl/images/Rstudio_firstopen.png)  
+![RStudio](/Ground_Control/img/Rstudio_firstopen.png)  
   
 The "console" panel on the left is where you will enter commands to run. The tabs in the panel at the bottom-right include a number of helpful things, but the most pertinent for now is the "Packages" tab. This lists all of the packages currently downloaded into your R install.  
   
@@ -23,10 +23,10 @@ The "console" panel on the left is where you will enter commands to run. The tab
 install.packages("shiny")  
 install.packages("reshape2")  
 install.packages("FNN")  
-{% endhighlight %}<br/>   
-
-All dependencies will be downloaded and installed automatically to your R Packages folder. The new packages will appear in the "Packages" tab.
-
+{% endhighlight %}  
+  
+All dependencies will be downloaded and installed automatically to your R Packages folder. The new packages will appear in the "Packages" tab.  
+  
 ## How to Download and Run the Apps  
   
 (4) Simply enter the packages "run command" into the R console. All run commands are two lines of code: the first loads the "shiny" package to enable interactive apps, and the second retrieves the source code and data from the github repository and opens the app. For example, this will open the ["Head to Head Competitions" app](/Ground_Control/apps/rb_head2head/):  
@@ -34,7 +34,7 @@ All dependencies will be downloaded and installed automatically to your R Packag
 {% highlight R %}
 library("shiny");
 runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_head2head/")
-{% endhighlight %}<br/> 
+{% endhighlight %}  
  
 Each of the apps should automatically retrieve the packages they need from your local packages library. But just in case, loading and unloading packages can be done manually by checking or un-checking the box next to that package. 
   
