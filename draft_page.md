@@ -98,7 +98,7 @@ Things look about as we expected. Converting a first down is harder the further 
   
 * * *   
   
-![2nd down and yards to go](/Ground_Control/images/EP_CP_yards_to_go_2.png)  
+![2nd down and yards to go](/Ground_Control/img/EP_CP_yards_to_go_2.png)  
   
 * * *   
 
@@ -106,7 +106,7 @@ And as we expected, all else held equal, converting a first down is easiest in m
   
 * * *   
   
-![conversion rate effect of yards til goal](/Ground_Control/images/EP_CP_yards_til_goal_2.png)  
+![conversion rate effect of yards til goal](/Ground_Control/img/EP_CP_yards_til_goal_2.png)  
   
 * * *   
  
@@ -114,7 +114,7 @@ Finally, also as expected, losing teams gradually have an easier and easier time
   
 * * *   
   
-![losing teams timeleft](/Ground_Control/images/EP_CP_gameleft_losing.png)  
+![losing teams timeleft](/Ground_Control/img/EP_CP_gameleft_losing.png)  
   
 * * *   
  
@@ -122,7 +122,7 @@ While teams that are ahead late in the game show a massive decrease in their fir
   
 * * *   
   
-![winning teams timeleft](/Ground_Control/images/EP_CP_gameleft_winning.png)  
+![winning teams timeleft](/Ground_Control/img/EP_CP_gameleft_winning.png)  
   
 * * *   
  
@@ -168,7 +168,7 @@ I like GAMS because they are very useful for both prediction _and_ explanation. 
   
 * * *   
   
-![winning teams timeleft](/Ground_Control/images/EP_yards_til_goal_4.png)  
+![winning teams timeleft](/Ground_Control/img/EP_yards_til_goal_4.png)  
   
 * * *   
  
