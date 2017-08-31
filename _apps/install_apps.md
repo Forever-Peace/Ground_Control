@@ -45,9 +45,11 @@ Each of the apps should automatically retrieve the packages they need from your 
   
 The "library("shiny")" command must be run once after opening RStudio. After that, the "runGitHub" command for the app of your choice can be used to open each app, without re-running the "library("shiny") command. The runGitHub commands for each app are listed in the [table of contents](/Ground_Control/contents/#apps).
 
+<script>
 $(function () {
     $('a').fluidbox({
 	viewportFill: 0.99,
 	});
 })
+</script>
 
