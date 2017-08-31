@@ -1,5 +1,6 @@
 ---
 title: Official NFL rushing attempt brain-teasers
+comments: true
 ---
   
 The official NFL Guide for Statisticians is a wonderful thing. Unlike the rulebook the refs have to use, which is a total mess (half the stuff in there is just the NFL banning some of the perfectly legal innovations we've made over the years), the statisticians guide is short, clear, and relatively intuitive. But my favorite part is the brain teasers. For some reason, the NFL decided to include dozens and dozens of completely bizarre hypotheticals as examples (sometimes ten or more per section). Some of them are so convoluted, I can only imagine that the folks who wrote it secretly just wanted to have a little fun trying to stump their fellow scorekeepers.  
