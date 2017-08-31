@@ -81,3 +81,8 @@ A basic taxonomy of run distributions
 [Chapter 6 script: Surprisal Me](https://github.com/Forever-Peace/GroundControl/blob/master/Chapters/ch6-surprisal/gamescore.R)  
 [Game Score calculator standalone script](https://github.com/Forever-Peace/GroundControl/blob/master/Chapters/ch6-surprisal/gamescore_calc_only.R)  
 
+---  
+  
+# Downloads  
+[Download the data here](/Ground_Control/downloads/)  
+  
