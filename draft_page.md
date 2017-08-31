@@ -168,7 +168,7 @@ I like GAMS because they are very useful for both prediction _and_ explanation. 
   
 * * *   
   
-![winning teams timeleft](/Ground_Control/img/EP_yards_til_goal_4.png)  
+![winning teams timeleft](/img/EP_yards_til_goal_4.png)  
   
 * * *   
  
