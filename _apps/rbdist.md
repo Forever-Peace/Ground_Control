@@ -1,13 +1,13 @@
 ---
 title: Player Distribution Plotter
 ---
-![app1](http://i.imgur.com/QnH8ik8.png)
+![app1](/Ground_Control/img/rb_dist_guide.bmp)
 
 #### Run command:  
 {% highlight R %}
 library("shiny");
 runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_dist/")
-{% endhighlight %}<br/> 
+{% endhighlight %}  
   
 The purpose of this app is pretty simple: plot the run distribution for any running back since 2010. You can sort alphabetically or by volume, collapse across years or look at individual years, and the app automatically produces two plots: the regular run distribution and the cumulative run distribution (see [chapter 1](/Ground_Control/ch1/)). Number of carries is listed at the bottom. The player you select is always in red, the league average is always in blue.  
   
