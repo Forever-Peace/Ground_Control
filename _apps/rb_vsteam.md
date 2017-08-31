@@ -1,13 +1,13 @@
 ---
 title: Player vs. Teammates
 ---
-![app3](http://i.imgur.com/4ShuB68.png)
+![app3](/Ground_Control/img/rb_distvsteam_guide.bmp)
 
 #### Run command:  
 {% highlight R %}
 library("shiny");
 runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_distvsteam/")
-{% endhighlight %}<br/> 
+{% endhighlight %}  
   
 I'm pretty excited about this app. Essentially, it lets you compare a selected player to all of the other running backs on his team that took carries in the same games.  
   
