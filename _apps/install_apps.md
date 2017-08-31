@@ -2,7 +2,16 @@
 title: Installation Instructions
 layout: page
 ---  
-
+<head> 
+<script>
+$(function () {
+    $('a').fluidbox({
+	viewportFill: 0.99,
+	});
+})
+</script>
+</head>
+  
 ## Running the Apps
 Running the apps, for free, compiled directly from the publically available source code, is very simple. You will need to install the R Statistics program, update a few plugins, then simply enter the run command for the app you want to use.  
   
@@ -44,12 +53,4 @@ runGitHub("Forever-Peace/GroundControl", subdir = "Chapters/shinyapps/rb_head2he
 Each of the apps should automatically retrieve the packages they need from your local packages library. But just in case, loading and unloading packages can be done manually by checking or un-checking the box next to that package. 
   
 The "library("shiny")" command must be run once after opening RStudio. After that, the "runGitHub" command for the app of your choice can be used to open each app, without re-running the "library("shiny") command. The runGitHub commands for each app are listed in the [table of contents](/Ground_Control/contents/#apps).
-
-<script>
-$(function () {
-    $('a').fluidbox({
-	viewportFill: 0.99,
-	});
-})
-</script>
 
