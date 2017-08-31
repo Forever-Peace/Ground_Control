@@ -5,9 +5,7 @@ layout: page
 <head> 
 <script>
 $(function () {
-    $('a').fluidbox({
-	viewportFill: 0.99,
-	});
+    $('a').fluidbox(viewportFill: 0.99);
 })
 </script>
 </head>
