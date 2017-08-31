@@ -1,5 +1,6 @@
 ---
 title: The 10-yard Divot
+comments: true
 ---
   
 Waaaay back in chapter 1, within minutes of making the Ground Control project live, I showed you this picture, and told you this:  
