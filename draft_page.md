@@ -98,7 +98,7 @@ Things look about as we expected. Converting a first down is harder the further 
   
 * * *   
   
-![2nd down and yards to go](/Ground_Control/img/EP_CP_yards_to_go_2.png)  
+![2nd down and yards to go](/img/EP_CP_yards_to_go_2.png)  
   
 * * *   
 
@@ -106,7 +106,7 @@ And as we expected, all else held equal, converting a first down is easiest in m
   
 * * *   
   
-![conversion rate effect of yards til goal](/Ground_Control/master/img/EP_CP_yards_til_goal_2.png)  
+![conversion rate effect of yards til goal](/img/EP_CP_yards_til_goal_2.png)  
   
 * * *   
  
@@ -114,7 +114,7 @@ Finally, also as expected, losing teams gradually have an easier and easier time
   
 * * *   
   
-![losing teams timeleft](Ground_Control/img/EP_CP_gameleft_losing.png)  
+![losing teams timeleft](/img/EP_CP_gameleft_losing.png)  
   
 * * *   
  
