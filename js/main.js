@@ -132,7 +132,7 @@ var main = {
 	}
   }
 $(function () {
-    $('a[rel="lightbox"]').fluidbox({
+    $('a').fluidbox({
 	viewportFill: 0.99,
 	});
 })
