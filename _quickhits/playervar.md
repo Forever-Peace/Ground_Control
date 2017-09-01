@@ -7,13 +7,13 @@ So far, I've mostly been using graphical techniques to directly compare two play
   
 But it is actually possible to look at how a lot of players compare to one another across a range of yardages in graphical form. We just need to combine two of the ideas I introduced in chapter 1: density plots, and quartiles.  
   
-<p><img style="float: left; margin: 0px 4px" src="/GroundControl/images/BernieA.jpg" alt="Bernie" />  "As you may remember, "percentiles" are the names for the values that are at least as great as some percentage of other values. So, for example, a 10-yard run is approximately the "90th percentile" because about 90% of other runs were less than that. A -1 yard run was about the 10th percentile, because only 10% of runs were less than that (i.e. led to a bigger loss). "Quartiles" is the special name for the values that divide all the data into quarters: the 1st quartile is the 25th percentile, the 2nd quartile is the 50th percentile (the median), and the 3rd quartile is the 75th percentile."</p>  
+<p><img style="float: left; margin: 0px 4px" src="/Ground_Control/img/BernieA.jpg" alt="Bernie" />  "As you may remember, "percentiles" are the names for the values that are at least as great as some percentage of other values. So, for example, a 10-yard run is approximately the "90th percentile" because about 90% of other runs were less than that. A -1 yard run was about the 10th percentile, because only 10% of runs were less than that (i.e. led to a bigger loss). "Quartiles" is the special name for the values that divide all the data into quarters: the 1st quartile is the 25th percentile, the 2nd quartile is the 50th percentile (the median), and the 3rd quartile is the 75th percentile."</p>  
   
 Easy enough, right? And of course, you remember density plots:  
   
 * * *
 
-![Run Distribution](/GroundControl/images/ch1_fig2_rundist.png)  
+![Run Distribution](/Ground_Control/img/ch1_fig2_rundist.png)  
 
 * * *
   
@@ -25,11 +25,11 @@ That looks something like this:
   
 * * *
 
-![Run Density Boxplot](/GroundControl/images/QH_DenBox.png)  
+![Run Density Boxplot](/Ground_Control/img/QH_DenBox.png)  
 
 * * *
   
-<p><img style="float: left; margin: 0px 4px" src="/GroundControl/images/BernieA.jpg" alt="Bernie" />  "This is called a 'Box Plot'. <b>The line in the middle of each of the boxes is the median (or 50th percentile) for that yardage. The top of the box is the 3rd quartile (the 75th percentile) and the bottom of the box is the 1st quartile (the 25th percentile). Bigger boxes mean more variance between players.</b> The "whiskers" also mean something, so I left them on for folks that have seen this sort of thing before, but you can safely ignore them if you want."</p>  
+<p><img style="float: left; margin: 0px 4px" src="/Ground_Control/img/BernieA.jpg" alt="Bernie" />  "This is called a 'Box Plot'. <b>The line in the middle of each of the boxes is the median (or 50th percentile) for that yardage. The top of the box is the 3rd quartile (the 75th percentile) and the bottom of the box is the 1st quartile (the 25th percentile). Bigger boxes mean more variance between players.</b> The "whiskers" also mean something, so I left them on for folks that have seen this sort of thing before, but you can safely ignore them if you want."</p>  
   
 Right away, you can see that the big differences between players are in the 0-5 yard range, with smaller differences between players at the extremes. In particular, we can see that variance really shrinks when the proportion of runs that go that distance is very small. For example, a person is typically only tackled for a 3-yard loss like 1%-2% of the time. When the average is so low, there's not a lot of room for players to differ - it's not like you can really go much lower than that! There's a hard limit - a "wall" - at 0%. These sort of "wall effects" are actually pretty common.
   
@@ -37,7 +37,7 @@ The cumulative distribution shows this as well, but it's not quite as bad. Remem
   
 * * *
 
-![Cumulative Run Density](/GroundControl/images/ch1_fig3_cumildense.png)  
+![Cumulative Run Density](/Ground_Control/img/ch1_fig3_cumildense.png)  
 
 * * *
   
@@ -45,7 +45,7 @@ And if we turn this into a boxplot, we get this:
   
 * * *
 
-![Cumulative Run Density Boxplot](/GroundControl/images/QH_CumBox.png)  
+![Cumulative Run Density Boxplot](/Ground_Control/img/QH_CumBox.png)  
 
 * * *
   
@@ -57,28 +57,28 @@ But in the meantime, there's also one last thing we can do with this kind of vis
   
 * * *
 
-![Cumulative Boxplot AP](/GroundControl/images/QH_CumBox_AP.png)  
+![Cumulative Boxplot AP](/Ground_Control/img/QH_CumBox_AP.png)  
 
 * * *
   
   
 * * *
 
-![Cumulative Boxplot TRich](/GroundControl/images/QH_CumBox_TRich.png)  
+![Cumulative Boxplot TRich](/Ground_Control/img/QH_CumBox_TRich.png)  
 
 * * *
   
   
 * * *
 
-![Cumulative Boxplot Joique 2015](/GroundControl/images/QH_CumBox_Joique2015.png)  
+![Cumulative Boxplot Joique 2015](/Ground_Control/img/QH_CumBox_Joique2015.png)  
 
 * * *
   
   
 * * *
 
-![Cumulative Boxplot Miller 2015](/GroundControl/images/Miller_cumdenbox15.png)  
+![Cumulative Boxplot Miller 2015](/Ground_Control/img/Miller_cumdenbox15.png)  
 
 * * *
   
