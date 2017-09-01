@@ -55,3 +55,44 @@ permalink: /ch_sum/
 - The algorithm helped identify Matt Forte and Arian Foster (who are extremely closely matched) as an interesting case of elite pass-catchers who still run like Grinders (carrying a high volume when active and producing an output similar to Frank Gore).  
 - “Backward matching” entailed the process of using older veterans to find younger players who are running in a similar way. Le'Veon Bell, Giovani Bernard looked a lot like FJax. Jerick McKinnon and David Johnson looked a lot like DeMarco Murray. Kendall Hunter looked like he maybe could have been a McCoy type runner.  
 - “Forward matching” entailed the process of running the younger players through the algorithm to see which established players they most resemble. All of the rookie and sophomore running backs are described above, along with some notes.  
+  
+# Chapter 4: Embrace the Random
+[Read chapter 4 here](/Ground_Control/ch4/)
+- The league-average yards per carry is 4.18, but we expect even perfectly average players to be higher than that sometimes and lower than that other times.
+- Smaller samples introduce more variance. In other words, increasing your sample size increases the precision of your sample mean.
+- Once we get to about 30-40 carries our so, a single freak long run or two is less likely to skew the whole Yards per Carry too much to the “big” side. A big enough room maybe couldn’t handle Bill Gates, but it could handle the odd millionaire without totally screwing with the average too much.
+- When we take the average of 10 random runs from the NFL, we get an average between 2.8 and 5.1 YPC only half the time.
+- Long runs are important for teams trying to grind out first downs on the ground. Home Run hitters were particularly good at gaining at least 10 yards when given 3 consecutive carries in our simulations. Short-yardage bruisers were particularly bad.
+- The majority of first downs in this 3-carry simulation came from a single run of 10+ yards (rather than a string of shorter runs). But the single distance that seemed to yield first downs most commonly was the 7 yard run. That’s the balance point between distance and probability (where 7 yards appears to be long enough to convert most of the time, but short enough to happen reasonably often).  
+- The Central Limit Theorem:
+![Lynch-TRich Simulation Sampling Distributions as Carries Increases](/Ground_Control/img/ch4_gif02_CLT2.gif)  
+
+# Chapter 5: Context is Everything
+[Read chapter 5 here](/Ground_Control/ch5/)
+- The situation matters. Expected outcome of a run depends on the context (possibly through play calls by the offense and defense).  
+- In general, when running is the more valuable strategy for the offense, the defense tries to take away that option, and running efficiency is reduced.  
+- Rushing attempts on 1st and 2nd down go further than rushing attempts on 3rd and 4th downs.  
+- Rushing attempts close to the line of gain tend to be shorter than rushing attempts further from the line of gain.   
+- Down and distance are correlated for rushing attempts. More than half of all 3rd down runs by a running back take place within 2 yards of the first down, and more than half of 4th down attempts take place within 1 yard.  
+- Within the 25, running the ball starts to become increasingly less efficient. Much of this difference is due to the goal-line cutoff (where it’s not possible to gain more yards past the goal line if you score a touchdown), but a half-yard of this decrease is attributable to other game factors (possibly defensive play calls and the compressed field).  
+- There is also tentative evidence for a slight drop in running efficiency as the offense nears field goal range.  
+- The complete model of down, distance, and field position indicated two major distince influences: 1) the goal line effect, and 2) a line of gain effect specifically on third downs (where running on a third and short is particularly hard). (Note: this “generalized additive model” essentially works by drawing flexible curves over the specified context features, then adding them together for any given rushing attempts).  
+- Early in the game, the winning team is more likely to have better rushing attempts, on average. Late in the game, the losing team is more likely to have better rushing attempts. Being up 2 touchdowns in the 1st half or down 2 touchdowns in the 2nd half is worth about an extra half-yard.  
+- The tendency for defenses to take away the run when running would be most valuable to the offense is exactly what we’d expect according to game theory: the ideal strategy for a defense is to guess the probabilities of different moves by the offense, and choose the best strategy against that guess.  
+- As a consequence, football teams are incentivized to be unpredictable in their offensive play calls. Sometimes, the best offensive play is the suboptimal one, and that means running the ball sometimes even when passing might have a higher expected yardage.   
+  
+# Chapter 6: Surprisal Me
+[Read chapter 6 here](/Ground_Control/ch6/)
+- YPC sucks. We can make a better efficiency stat.
+- Every run can be thought of as a draw from a probability distribution. That means that every distance gained has a probability of occurance.
+- We can estimate those probabilities using kernal density estimation.
+- Thinking in probabilities instead of distances solves the 'long run problem'.
+- Given those individual run probabilities, we can calculate the probability of whole games.
+- We can use information theory to convert those probabilities into interpretable values. Improbable games are more surprising, and more surprising games have higher "Surprisal", a measure of information (in bits).
+- A 1-bit increase in Surprisal corresponds with a game that was half as probable (i.e. twice as improbable/surprising).
+- Game Surprisal is sensitive to both volume and efficiency. More efficient games are more surprising, but any particular high-carry game is also surprising (because there are more possible outcomes, spreading the probability around).
+- We can account for volume by simulating a league-average Game Surprisal for each number of carries in a game. This gives is "marginal game surprisal", which we call Game Score.
+- Game Score is a pure, game-level efficiency satistic, measured in bits. A Game Score of 0 is average, given that many carries. A Game score of 1 is twice as improbable/surprising as an average game. A Game Score of 2 is 4 times as improbable as an average game (i.e. twice as far from average as a Game Score of 1).
+- Game Score passes the eye test: it thinks Jamaal Charles, LeSean McCoy, Adrian Peterson, and DeMarco Murray are good, and it thinks Trent Richardson is godawful bad.
+- Game Score is significantly more stable from year to year than yards per carry.
+![JCharles Game Surprisal](/Ground_Control/img/ch6_fig17_GS_JCharles.png)   
