@@ -12,14 +12,14 @@ First, let's compare him to the league average distributions. This is our bread 
   
 * * * 
   
-![Gordon Run Distribution](/GroundControl/images/Gordon_v_rbdist.png)  
+![Gordon Run Distribution](/Ground_Control/img/Gordon_v_rbdist.png)  
   
 * * * 
   
   
 * * * 
   
-![Gordon Cumulative Run Distribution](/GroundControl/images/Gordon_v_rbdistcum.png)  
+![Gordon Cumulative Run Distribution](/Ground_Control/img/Gordon_v_rbdistcum.png)  
   
 * * * 
   
@@ -29,7 +29,7 @@ This is really apparent in the boxplots we developed in a previous quick hit:
   
 * * * 
   
-![Gordon Boxplot](/GroundControl/images/Gordon_rundencum.png)
+![Gordon Boxplot](/Ground_Control/img/Gordon_rundencum.png)
   
 * * * 
   
@@ -39,14 +39,14 @@ The poor line play didn't just impact Gordon. The rest of his teammates also did
   
 * * * 
   
-![Gordon vs Team1](/GroundControl/images/Gordon_v_team.png)  
+![Gordon vs Team1](/Ground_Control/img/Gordon_v_team.png)  
   
 * * * 
   
   
 * * * 
   
-![Gordon vs Team2](/GroundControl/images/Gordon_v_teamcum.png)  
+![Gordon vs Team2](/Ground_Control/img/Gordon_v_teamcum.png)  
   
 * * * 
   
@@ -54,7 +54,7 @@ We see exactly the same propensity this year for Chargers running backs to get c
   
 * * * 
   
-![Woodhead Run Distribution](/GroundControl/images/ch2_fig22_WOODHEADden.png)  
+![Woodhead Run Distribution](/Ground_Control/img/ch2_fig22_WOODHEADden.png)  
   
 * * * 
   
@@ -66,7 +66,7 @@ This is backed up by the distribution matching. Gordon doesn't look look like a 
   
 * * * 
   
-![Gordon Matches](/GroundControl/images/Gordon_matches.png)
+![Gordon Matches](/Ground_Control/img/Gordon_matches.png)
   
 * * * 
   
@@ -78,7 +78,7 @@ The answer is "not very often". Given the number of touches Gordon has, a league
   
 * * * 
   
-![Gordon Resampling](/GroundControl/images/Gordon_resampling.png)  
+![Gordon Resampling](/Ground_Control/img/Gordon_resampling.png)  
   
 * * * 
   
@@ -88,7 +88,7 @@ Just to demonstrate where Gordon currently sits on the pecking order, I ran a he
   
 * * * 
   
-![Gordon Head2Head](/GroundControl/images/Gordon_TRich_head2head.png)  
+![Gordon Head2Head](/Ground_Control/img/Gordon_TRich_head2head.png)  
   
 * * * 
   
