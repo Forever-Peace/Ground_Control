@@ -1,6 +1,8 @@
 ---
 title: Installation Instructions
 layout: page
+js: /js/jquery.fluidbox.min.js
+css: /css/fluidbox.min.css
 ---  
     
 ## Running the Apps
