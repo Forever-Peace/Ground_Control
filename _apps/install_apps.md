@@ -7,11 +7,13 @@ js:
 ext-js: //cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js
 css: /css/fluidbox.min.css
 ---  
+<script>
 $(function () {
     $('a').fluidbox({
 	viewportFill: 0.99,
 	});
 })
+</script>
 
 ## Running the Apps
 Running the apps, for free, compiled directly from the publically available source code, is very simple. You will need to install the R Statistics program, update a few plugins, then simply enter the run command for the app you want to use.  
