@@ -13,7 +13,7 @@ Here's what changed:
   
   ***
   
-![qh_sophgrowth](/GroundControl/images/QH_yeargrow12_cum.png)
+![qh_sophgrowth](/Ground_Control/img/QH_yeargrow12_cum.png)
   
   ***
   
@@ -23,7 +23,7 @@ So I decided to explore a little more deeply. Just to make sure I wasn't acident
   
   ***
   
-![qh_sophgrowthexpanded](/GroundControl/images/QH_yeargrowthexpanded.png)
+![qh_sophgrowthexpanded](/Ground_Control/img/QH_yeargrowthexpanded.png)
   
   ***
   
