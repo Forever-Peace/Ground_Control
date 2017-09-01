@@ -1,7 +1,9 @@
 ---
 title: Installation Instructions
 layout: page
-js: /js/jquery.fluidbox.min.js
+js: 
+ - /js/jquery-1.11.2.min.js
+ - /js/jquery.fluidbox.min.js
 css: /css/fluidbox.min.css
 ---  
     
