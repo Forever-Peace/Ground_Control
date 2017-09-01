@@ -4,6 +4,7 @@ layout: page
 js: 
  - /js/jquery-1.11.2.min.js
  - /js/jquery.fluidbox.min.js
+ext-js: //cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js
 css: /css/fluidbox.min.css
 ---  
     
