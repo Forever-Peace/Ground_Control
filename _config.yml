@@ -36,6 +36,7 @@ navbar-links:
     - Game Score: "apps/rb_surp/"
     - Defensive Yards Against: "apps/rb_def/"
   Chapters:
+    - "Chapter Summaries": "ch_sum"
     - "Chapter 1: The Typical Run": "ch1/"
     - "Chapter 2: Types of Runners": "ch2/"
     - "Chapter 3: Distribution Matching": "ch3/"
