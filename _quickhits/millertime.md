@@ -9,7 +9,7 @@ Well, to start with, he has clearly ran like an above-average back since being d
 
 * * *
 
-![Miller_career](/GroundControl/images/01Miller_career.png)  
+![Miller_career](/Ground_Control/img/01Miller_career.png)  
 
 * * *
   
@@ -17,17 +17,17 @@ Though his career 4.59 YPC might not seem too far from the 4.18 league-average, 
   
 * * *
   
-![Miller vs resampled league-average](/GroundControl/images/Miller_resampling.png)  
+![Miller vs resampled league-average](/Ground_Control/img/Miller_resampling.png)  
   
 * * *
   
 That doesn't just meet the "yeah he's probably more likely than not a good runner" standard of evidence. It just about meets the standard of evidence that many scientists use when publishing professional research.
 
-One thing we can look at [with our tools](/GroundControl/apps/rb_head2head/){:target="_blank"} is how quickly Miller is able to distinguish himself. We'd only need to see about a 100 carries of each to be able to conclude that Miller is almost certainly a better runner than Trent Richardson:  
+One thing we can look at [with our tools](/Ground_Control/apps/rb_head2head/){:target="_blank"} is how quickly Miller is able to distinguish himself. We'd only need to see about a 100 carries of each to be able to conclude that Miller is almost certainly a better runner than Trent Richardson:  
   
 * * *
   
-![Miller vs TRich](/GroundControl/images/Miller_vTRich.png)  
+![Miller vs TRich](/Ground_Control/img/Miller_vTRich.png)  
   
 * * *
   
@@ -35,15 +35,15 @@ But at the other extreme, Miller actually keeps pace pretty well when stacked up
   
 * * *
   
-![Miller vs Charles](/GroundControl/images/Miller_vJC.png)  
+![Miller vs Charles](/Ground_Control/img/Miller_vJC.png)  
   
 * * *
   
-In terms of actual comparables, [our player matcher](/GroundControl/apps/rb_distmatch/){:target="_blank"} comes through yet again with a #1 match that I really like:  
+In terms of actual comparables, [our player matcher](/Ground_Control/apps/rb_distmatch/){:target="_blank"} comes through yet again with a #1 match that I really like:  
   
 * * *
   
-![Miller playermatch](/GroundControl/images/Miller_playermatch.png)  
+![Miller playermatch](/Ground_Control/img/Miller_playermatch.png)  
   
 * * *
   
@@ -53,7 +53,7 @@ And importantly, his successes are probably not attributable to some monster off
   
 * * *
   
-![Miller vs Team](/GroundControl/images/Miller_team.png)  
+![Miller vs Team](/Ground_Control/img/Miller_team.png)  
   
 * * *
   
@@ -73,7 +73,7 @@ There's also little evidence that his production has been limited on 3rd downs. 
   
 * * *
   
-![Miller Proportion of Downs](/GroundControl/images/Miller_downprop.png)  
+![Miller Proportion of Downs](/Ground_Control/img/Miller_downprop.png)  
   
 * * *
   
@@ -83,7 +83,7 @@ First, the Dolphins just aren't a run-heavy team. Last year, they had [by far th
   
 * * *
   
-![Miller Active Run Share](/GroundControl/images/Miller_runshare.png)  
+![Miller Active Run Share](/Ground_Control/img/Miller_runshare.png)  
   
 * * *
   
@@ -97,9 +97,9 @@ Miller was pretty consistent in his first three years, posting a good 50-carry r
   
 * * *
   
-![Miller First Three Years](/GroundControl/images/Miller_years1to3.png)  
+![Miller First Three Years](/Ground_Control/img/Miller_years1to3.png)  
   
-![Miller 2014 Cumulative Density Plot](/GroundControl/images/Miller_2014.png)  
+![Miller 2014 Cumulative Density Plot](/Ground_Control/img/Miller_2014.png)  
   
 * * *
   
@@ -107,9 +107,9 @@ But then he backslid.
   
 * * *
   
-![Miller Had a Bad 4th Year](/GroundControl/images/Miller_Yearcomp.png)  
+![Miller Had a Bad 4th Year](/Ground_Control/img/Miller_Yearcomp.png)  
   
-![Miller 2015 Cumulative Density Plot](/GroundControl/images/Miller_2015.png)  
+![Miller 2015 Cumulative Density Plot](/Ground_Control/img/Miller_2015.png)  
   
 * * *
   
@@ -117,7 +117,7 @@ That looks suspiciously like slowing down. This is apparent [in the comparison t
   
 * * *
   
-![Miller vs Team 2014](/GroundControl/images/Miller_team14.png)  
+![Miller vs Team 2014](/Ground_Control/img/Miller_team14.png)  
   
 * * *
   
@@ -125,7 +125,7 @@ And in 2015, that clear dominance started to fade:
   
 * * *
   
-![Miller vs Team 2015](/GroundControl/images/Miller_team15.png)  
+![Miller vs Team 2015](/Ground_Control/img/Miller_team15.png)  
   
 * * *
   
@@ -135,7 +135,7 @@ However, even 2015 had it's bright spots. Though his ability to break through th
   
 * * *
   
-![Miller Cumulative Density Boxplot](/GroundControl/images/Miller_cumdenbox15.png)  
+![Miller Cumulative Density Boxplot](/Ground_Control/img/Miller_cumdenbox15.png)  
   
 * * *
   
