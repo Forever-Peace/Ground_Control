@@ -131,11 +131,6 @@ var main = {
 	  $(".img-desc").hide();  
 	}
   }
-$(function () {
-    $('a').fluidbox({
-	viewportFill: 0.99,
-	});
-})
 };
 
 // 2fc73a3a967e97599c9763d05e564189
