@@ -32,7 +32,9 @@ permalink: /ch_sum/
 * A rushing attempt can be thought of as taking a sample from a distribution of possible outcomes. Examining the distribution across runs for certain players and circumstances can tell us a lot about the nature of the possible outcomes for that players or circumstances. The distribution of all runs is significantly right-skewed (i.e. has a long right tail indicating that there are just a few runs that go for a very long yardage – the “bill gates” of runs).
 * A cumulative density plot shows the proportion of runs that make it to particular yardages.
 * There are three phases to a run: the yards that are blocked, the yards that are contested (where most runs are stopped), and the open field. The yards that are blocked are mostly “free” for the running back, who generally uses that time to rapidly approach the contested zone. In contrast, open field running has a special type of momentum: each step past the contested zone increases the expected yards remaining on the run. Running gets easier the further the running back goes.  
-  
+    
+---
+
 # Chapter 2: Types of Runners
 [Read chapter 2 here](/Ground_Control/ch2/)
 * 20% of all RB runs in the NFL over the past six years are attributable to just ten players: Gore, McCoy, Lynch, CJ2K, Peterson, Forte, Foster, Steven Jackson, DeMarco Murray, and Morris.
@@ -47,7 +49,9 @@ permalink: /ch_sum/
 * Jamaal Charles looks like the greatest running back of the decade.
 * Run distributions are not known to be predictive, but Rawls, Karlos Williams, Jerick McKinnon, and David Johnson are looking very promising. 
 * 2008 sucked for the Pats.
-  
+    
+---
+
 # Chapter 3: Finding Player Comparables through Distribution Matching
 [Read chapter 3 here](/Ground_Control/ch3/)
 - We can find the “closest” run distributions for different players using an algorithm to find the shortest distance between the curves. We used a few tricks and settled on “Nearest Neighbor Retrieval”.  
@@ -55,7 +59,9 @@ permalink: /ch_sum/
 - The algorithm helped identify Matt Forte and Arian Foster (who are extremely closely matched) as an interesting case of elite pass-catchers who still run like Grinders (carrying a high volume when active and producing an output similar to Frank Gore).  
 - “Backward matching” entailed the process of using older veterans to find younger players who are running in a similar way. Le'Veon Bell, Giovani Bernard looked a lot like FJax. Jerick McKinnon and David Johnson looked a lot like DeMarco Murray. Kendall Hunter looked like he maybe could have been a McCoy type runner.  
 - “Forward matching” entailed the process of running the younger players through the algorithm to see which established players they most resemble. All of the rookie and sophomore running backs are described above, along with some notes.  
-  
+    
+---
+
 # Chapter 4: Embrace the Random
 [Read chapter 4 here](/Ground_Control/ch4/)
 - The league-average yards per carry is 4.18, but we expect even perfectly average players to be higher than that sometimes and lower than that other times.
@@ -66,6 +72,8 @@ permalink: /ch_sum/
 - The majority of first downs in this 3-carry simulation came from a single run of 10+ yards (rather than a string of shorter runs). But the single distance that seemed to yield first downs most commonly was the 7 yard run. That’s the balance point between distance and probability (where 7 yards appears to be long enough to convert most of the time, but short enough to happen reasonably often).  
 - The Central Limit Theorem:
 ![Lynch-TRich Simulation Sampling Distributions as Carries Increases](/Ground_Control/img/ch4_gif02_CLT2.gif)  
+  
+---
 
 # Chapter 5: Context is Everything
 [Read chapter 5 here](/Ground_Control/ch5/)
@@ -80,7 +88,9 @@ permalink: /ch_sum/
 - Early in the game, the winning team is more likely to have better rushing attempts, on average. Late in the game, the losing team is more likely to have better rushing attempts. Being up 2 touchdowns in the 1st half or down 2 touchdowns in the 2nd half is worth about an extra half-yard.  
 - The tendency for defenses to take away the run when running would be most valuable to the offense is exactly what we’d expect according to game theory: the ideal strategy for a defense is to guess the probabilities of different moves by the offense, and choose the best strategy against that guess.  
 - As a consequence, football teams are incentivized to be unpredictable in their offensive play calls. Sometimes, the best offensive play is the suboptimal one, and that means running the ball sometimes even when passing might have a higher expected yardage.   
-  
+    
+---
+
 # Chapter 6: Surprisal Me
 [Read chapter 6 here](/Ground_Control/ch6/)
 - YPC sucks. We can make a better efficiency stat.
