@@ -16,7 +16,7 @@ df <- read_csv("http://raw.github.com/Forever-Peace/GroundControl/master/rushing
   
 To download directly into Python, use the following commands:  
   
-~~~ Python
+~~~ python
 import pandas as pd
 url = 'http://raw.github.com/Forever-Peace/GroundControl/master/rushing_data_stack.csv'
 df = pd.read_csv(url,index_col=0)
