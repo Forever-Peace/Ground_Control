@@ -261,6 +261,6 @@ Many of the first EPA models are based on essentially just taking the average ou
 __Strengths__: Extremely good at finding weird relationships (including nonlinear effects, discontinuous effects, local interactions, high-order interactions), awesome with large data sets, the data can be screwy with really weird distributions.  
 __Weaknesses__: Very inefficient way to try to capture simple, continuous, linear effects. Somewhat of an opaque method. Isn't great at projecting rare outcomes. Doesn't benefit from cases where the data has a known structure or distribution. Will often only give you reasonable projections for cases that are similar to a number of previous instances in the training data (i.e. it doesn't do "trends").  
 
-
+We fit a random-forest regression model over non-rescaled training data. Quality of candidate splits was assessed using Mean Squared Error over the outcome. Max depth (number of branches in the longest path from root to terminal node), minimum number of samples required to split a node, number of randomly sampled features used to grow each individual tree, and number of trees (which sklearn calls "number of estimators") were all optimized using a series of increasingly precise grid searches with two-fold cross validation. 
 
 
