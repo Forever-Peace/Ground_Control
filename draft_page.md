@@ -296,3 +296,24 @@ The primary parameters that we need to optimize are the "capacity" (denoted by C
   
 It's also possible to use the SVMs for multinomial classification rather than regression, and then take the class probabilities as our outcome, like we did for logistic regression. However, SVM classification probabilities are notoriously circumspect. I tried it out anyways and it was, indeed, terrible. We stick with SVM regression.  
   
+The results (remember that each down is a different SVM model with different optimized parameters):  
+  
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 4px;
+}
+</style>  
+| 1st down r | 0.4025 |
+| 2nd down r | 0.2977 |
+| 3rd down r | 0.4520 |
+| 4th down r | 0.6229 |
+| Overall r | 0.3203 |
+  
+<br/>  
+
+For reasons that are not at all clear to me, the SVM is absolutely terrible with 2nd downs, despite being optimized separetely for each down. It's also a bit sub-par with first downs. But it still handily beats the GAM on 4th downs, and may be picking up on some unique explanatory power considering the unique way it's approaching the problem. __As such, we will only use the Support Vector Machine predictions from 3rd and 4th downs in our final ensemble predictions. SVM will be omitted from 1st and 2nd down predictions.__  
+  
