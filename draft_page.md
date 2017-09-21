@@ -332,15 +332,17 @@ th, td {
     padding: 4px;
 }
 </style>  
-| 1st down r | 0.4025 |
-| 2nd down r | 0.2977 |
-| 3rd down r | 0.4520 |
-| 4th down r | 0.6229 |
-| Overall r | 0.3203 |
+| Explained Variance | 0.1186 |
+| Mean Error | 2.195 |
+| 1st down r | 0.3403 |
+| 2nd down r | 0.3800 |
+| 3rd down r | 0.4471 |
+| 4th down r | 0.6225 |
+| Overall r | 0.3506 |
   
 <br/>  
 
-For reasons that are not at all clear to me, the SVM is absolutely terrible with 2nd downs, despite being optimized separetely for each down. It's also a bit sub-par with first downs. But it still handily beats the GAM on 4th downs, and may be picking up on some unique explanatory power considering the unique way it's approaching the problem. __As such, we will only use the Support Vector Machine predictions from 3rd and 4th downs in our final ensemble predictions. SVM will be omitted from 1st and 2nd down predictions.__  
+For reasons that are not at all clear to me, the SVM is absolutely terrible with 1st and 2nd downs, despite being optimized separetely for each down. But it still handily beats the GAM on 4th downs, and may be picking up on some unique explanatory power considering the unique way it's approaching the problem. __As such, we will only use the Support Vector Machine predictions from 3rd and 4th downs in our final ensemble predictions. SVM will be omitted from 1st and 2nd down predictions.__  
 
 ### Collection of 64 random neural networks with independent samples
 There's one strange quirk of the data that bothered me since I started working on this: I am knowingly violating the assumptions of every single model we have run so far. __Specifically, our data points (plays) are not independent from one another.__ Let's say there's a long 15-play drive that ends in a field goal. Each play in that drive has different circumstances (it might start at the 20 yard line and march downfield to the OPP 15 or so), but we tell our models that the result of every single one of these plays is a "3". There are a lot of problems with this, but one problem is that we count the same outcome 15 times over. Compare this to a drive where the first play is a deep touchdown. We only count that once. Our models are likely all biased towards capturing the outcomes of drives with the most plays, rather than any random play. However, despite these problems, it really is the case that our testing data (and potential future data) really does have this same property as well. Plays are subsumed inside drives, but we are trying to explain drive outcomes given play-level information).  
@@ -395,15 +397,17 @@ th, td {
     padding: 4px;
 }
 </style>  
-| 1st down r | 0.4452 |
-| 2nd down r | 0.4565 |
-| 3rd down r | 0.4787 |
+| Explained Variance | 0.2476 |
+| Mean Error | 1.976 |
+| 1st down r | 0.4523 |
+| 2nd down r | 0.4635 |
+| 3rd down r | 0.4835 |
 | 4th down r | 0.6522 |
-| Overall r | 0.4920 |
+| Overall r | 0.4981 |
   
 <br/>  
 
 Phew! We now have our Expected Points (and, thus, Expected Points Added) for every football play of the past 9 years. We can also define a "success" as a play with a positive EPA, i.e. a play that actually helped the expected outlook of the drive, in order to get "success rate" over games, seasons, and careers. We're ready to rock and roll with some explorations.  
   
-The astute among you may have noticed that the neural network alone had a roughly-equivalent-or-better predictive ability than the ensemble both overall and for each individual down. If this was a kaggle competition, we likely wouldn't sacrifice that superior predictive ability by blending it with "worse" techniques unless we had evidence that it was actually improving our overall predictions, on average. However, in this case, it was really important to me that we do everything we can to develope good numerical predictions for even the weirdest, most fringe circumstances. "Good" predictions, on average, could be the consequence of predicting the most common circumstances really well, which is certainly an important thing to do. But in this case, we can at least incorporate the other approaches (with their own strengths and weaknesses) without compromising overall explanatory power or the predictive ability for each down, overall, while it's likely that the different approaches each have a very different take on the fringe cases that we can now average together in a sort of triangulation of what a good prediction might be. This is a slight departure from a rigid goal of "maximizing predictive power", but I think it serves our purposes well in this particular case.  
+The astute among you may have noticed that the neural network alone had a roughly-equivalent-or-better predictive ability than the ensemble both overall and for each individual down (though the ensemble was a bit better on third downs and had an overall lower mean error). If this was a kaggle competition, we likely wouldn't sacrifice that superior predictive ability by blending it with "less accurate" techniques unless we had evidence that it was actually improving our overall predictions, on average. However, in this case, it was really important to me that we do everything we can to develope good numerical predictions for even the weirdest, most fringe circumstances. "Good" predictions, on average, could be the consequence of predicting the most common circumstances really well, which is certainly an important thing to do. But in this case, we can at least incorporate the other approaches (with their own strengths and weaknesses) without compromising overall explanatory power or the predictive ability for each down, overall, while it's likely that the different approaches each have a very different take on the fringe cases that we can now average together in a sort of triangulation of what a good prediction might be. This is a slight departure from a rigid goal of "maximizing predictive power", but I think it serves our purposes well in this particular case.  
   
