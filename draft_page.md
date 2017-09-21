@@ -266,13 +266,13 @@ th, td {
     padding: 4px;
 }
 </style>  
-| Explained Variance | 0.2538 |
-| Mean Error | 1.973 |
-| 1st down r | 0.4588 |
-| 2nd down r | 0.4700 |
-| 3rd down r | 0.4846 |
-| 4th down r | 0.6580 |
-| Overall r | 0.5039 |
+| Explained Variance | 0.2495 |
+| Mean Error | 1.993 |
+| 1st down r | 0.4528 |
+| 2nd down r | 0.4663 |
+| 3rd down r | 0.4815 |
+| 4th down r | 0.6558 |
+| Overall r | 0.4997 |
   
 <br/> 
 
